@@ -1,5 +1,6 @@
 #include "manager.h"
 
+
 int listProduct(Product *s, int index){
 	printf("\n***************************");			
 	for(int i=0; i<index; i++){
