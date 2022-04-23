@@ -16,10 +16,8 @@ int readProduct(Product s);
 #endif
 
 int listProduct(Product *s, int index);
-
 void saveData(Product *s, int index);
 int loadData(Product *s);
-
 void searchProduct(Product *s, int index);
 void priceCompare(Product *s, int index);
 void locationProduct(Product *s, int index);
