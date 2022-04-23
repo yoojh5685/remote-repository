@@ -1,6 +1,5 @@
 #include "manager.h"
 
-
 int listProduct(Product *s, int index){
 	printf("\n***************************");			
 	for(int i=0; i<index; i++){
@@ -48,7 +47,6 @@ int loadData(Product *s){
 	return i;
 	}
 }
-				
 
 void searchProduct(Product *s, int index){
 	int scnt = 0;
