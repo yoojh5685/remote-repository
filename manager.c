@@ -72,7 +72,6 @@ void priceCompare(Product *s, int index){
 	int min, max,scntt=0;
 
 	getchar();
-
 	printf("\n최소가격은? : ");
 	scanf("%d", &min);
 	printf("최대가격은? : ");
