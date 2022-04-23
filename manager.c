@@ -53,7 +53,6 @@ void searchProduct(Product *s, int index){
 	char search[30];
 
 	getchar();
-
 	printf("검색할 이름? ");
 	scanf("%[^\n]s", search);
 
@@ -66,7 +65,7 @@ void searchProduct(Product *s, int index){
 		}
 	}
 	if(scnt==0) printf("\n=> 검색된 데이터 없음!");
-		printf("\n");
+	printf("\n");
 }
 
 void priceCompare(Product *s, int index){
